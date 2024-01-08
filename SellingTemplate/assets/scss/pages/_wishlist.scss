@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wishlistdiv{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .wishBox{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+        padding: 20px;
+        width: 30%;
+        .btns{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            gap: 30px;
+        }
+        .addtowishlistbtn{
+            background-color: black;
+            color: white;
+            padding: 17px;
+            border: 3px solid black;
+            font-weight: bolder;
+         
+        }
+        .addtowishlistbtn:hover{
+            background-color: white;
+            color: black;
+            transition: 0.3s;
+        }
+        .removefromwishlist{
+            background-color:white ;
+            border: 3px solid black;
+            color: black;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        .removefromwishlist:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .myDiv{
+       width:30%;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid black;
+            padding: 20px;
+            .btns{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            
+                gap: 30px;
+            }
+            .addtowishlistbtn{
+                background-color: black;
+                color: white;
+                padding: 17px;
+                border: 3px solid black;
+                font-weight: bolder;
+             
+            }
+            .addtowishlistbtn:hover{
+                background-color: white;
+                color: black;
+                transition: 0.3s;
+            }
+            .addtobasketbtn{
+                background-color:white ;
+                border: 3px solid black;
+                color: black;
+                font-weight: bolder;
+                padding: 5px;
+            }
+            .addtobasketbtn:hover{
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }

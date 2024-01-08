@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    .container{
+        width: 95%;
+        padding: 30px;
+        .headerdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+padding: 10px;
+            .iconsdiv{
+                i{
+                    background-color: black;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px;
+            
+
+                }
+            }
+            .numberdiv{
+                display: flex;
+                gap: 20px;
+                cursor: pointer;
+                i{
+                    color: $hover-color;
+                }
+            }
+        }
+        .nav{
+
+            .collapseDiv{
+                justify-content: flex-end;
+                ul{
+                    display: flex;
+                    gap: 25px;
+                    li{
+                        a{
+                            font-size: 17px;
+                      
+                        }
+                        a:hover{
+                            color: $hover-color;
+                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    #shopwithus{
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(/assets/img/hero_2.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        .container{
+            width: 95%;
+            margin-bottom: 30px;
+            padding: 30px;
+            .row{
+                display: flex;
+                align-items: center;
+        
+                .shopwithusdiv{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+
+
+h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+.shopbtn{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.shopbtn:hover{
+    background-color:white;
+    color: black;
+    transition: 0.3s;
+}
+.clubbtn{
+    background-color:white;
+    color: black;
+    border: 3px solid white;
+    padding: 15px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.clubbtn:hover{
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+                }
+            }
+        }
+    }
+    #apisection{
+        width: 100%;
+        margin-top: 30px;
+        .container{
+            width: 90%;
+            margin-top: 30px;
+            padding: 30px;
+            
+            .titlediv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            
+                h6{
+                    color: gray;
+                    margin-top: 30px;
+                }
+                h1{
+                    font-weight: bolder;
+                }
+                p{
+                    width: 50%;
+                    color: gray;
+                }
+            }
+            .filterandsearchdiv{
+                display: flex;
+                gap: 30px 30px;
+                padding: 25px;
+                #filterdata{
+                    border: 3px solid black;
+                    background-color: white;
+                    font-weight: bolder;
+                    color: black;
+                }
+                form{
+                    input{
+                        border: 3px solid black;
+                        background-color: white;
+                        color: black; 
+                        padding-left: 10px;
+                        padding: 10px;
+                    }
+                    button{
+                        background-color: black;
+                        color: white;
+                    padding: 10px;
+                        border: 3px solid black;
+                        font-weight: bolder;
+                      
+                     
+                    }
+                    button:hover{
+                        background-color: white;
+                        color: black;
+                        transition: 0.3s;
+                    }
+                }
+            }
+            #apidiv{
+padding: 25px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+.proBox{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 20px;
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        gap: 30px;
+    }
+    .addtowishlistbtn{
+        background-color: black;
+        color: white;
+        padding: 17px;
+        border: 3px solid black;
+        font-weight: bolder;
+     
+    }
+    .addtowishlistbtn:hover{
+        background-color: white;
+        color: black;
+        transition: 0.3s;
+    }
+    .addtobasketbtn{
+        background-color:white ;
+        border: 3px solid black;
+        color: black;
+        font-weight: bolder;
+        padding: 5px;
+    }
+    .addtobasketbtn:hover{
+background-color: black;
+color: white;
+transition: 0.3s;
+    }
+}
+img{
+    width: 100%;
+}
+.myDiv{
+   width:30%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+        padding: 20px;
+        .btns{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        .addtowishlistbtn{
+            background-color: black;
+            color: white;
+            padding: 17px;
+            border: 3px solid black;
+            font-weight: bolder;
+         
+        }
+        .addtowishlistbtn:hover{
+            background-color: white;
+            color: black;
+            transition: 0.3s;
+        }
+        .addtobasketbtn{
+            background-color:white ;
+            border: 3px solid black;
+            color: black;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        .addtobasketbtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+        }
+    }
+    img{
+        width: 100%;
+    }
+}
+            }
+        }
+        #leadership{
+            width: 100%;
+            margin-top: 30px;
+            .container{
+                width: 90%;
+                margin-top: 30px;
+                padding: 30px;
+                
+                .titlediv{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                margin-bottom: 30px;
+                    h6{
+                        color: gray;
+                        margin-top: 30px;
+                    }
+                    h1{
+                        font-weight: bolder;
+                    
+        }
+    }
+    .leadershipdiv{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        img{
+            width: 100%;
+        }
+        h2{
+            font-size: 15px;
+            color: gray;
+        }
+        h1{
+            font-size:25px;
+        }
+        .iconsdiv{
+            i{
+                background-color:gray;
+                border-radius: 50%;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+        
+
+            }
+        }
+    }
+}}
+
+    }
+    #formsection {
+        width: 100%;
+        .container {
+          margin-top: 30px;
+    
+          padding: 30px;
+          width: 90%;
+          .titlediv {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            p {
+              color: gray;
+            }
+          }
+          #myform {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+    
+            .inputdiv {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+    
+              width: 50%;
+              input {
+                width: 100%;
+                border-radius: 0px;
+                padding: 15px;
+              }
+            }
+            .btndiv {
+              width: 50%;
+              .textarea {
+                width: 100%;
+                border-radius: 0px;
+                padding: 15px;
+                margin-bottom: 20px;
+              }
+              button{
+                background-color: black;
+                color: white;
+            padding: 10px;
+                border: 3px solid black;
+                font-weight: bolder;
+              
+             
+            }
+            button:hover{
+                background-color: white;
+                color: black;
+                transition: 0.3s;
+            }
+            }
+          }
+        }}
+     
+
+footer{
+    width: 100%;
+
+                .container{
+             width: 90%;
+                    .row{
+                       
+                        .footdiv{
+   
+                            display: flex;
+                            justify-content: center;
+                          
+                        }
+                    }
+                }
+            }
+@media screen and (max-width:992px){
+    header{
+        .container{
+            .headerdiv{
+                .numberdiv{
+  
+    p{
+        display: none;
+    }
+  
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:400px) {
+    main{
+        #apisection{
+            .container{
+                .filterandsearchdiv{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
